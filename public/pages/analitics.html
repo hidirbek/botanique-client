@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <title>Botanique</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Аналитика</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="logo-wrapper">
+            <img src="../img/site_logo.svg" alt="site logo" />
+          </div>
+          <nav class="site-nav">
+            <a class="nav-links" href="./index.html">Главная</a>
+            <a class="nav-links nav_link-active" href="./analitics.html"
+              >Аналитика</a
+            >
+          </nav>
+          <div class="user-part">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="site-main analiticsmain">
+      <div class="container">
+        <div class="main-wrapper">
+          <div class="fav_tool_title-wrapper">
+            <div class="tool_title-wrapper analitics-tool_title">
+              <img class="tool-logo" src="../img/pH.png" alt="" />
+              <div class="tool-text">
+                <h1 class="tool-title">
+                  pH-метр Mettler-Toledo International, Inc. SevenCompact S220
+                </h1>
+                <p class="tool-subtitle">S1.4.I14-9.001 00-024004</p>
+              </div>
+              <div class="tool_title-btns">
+                <select class="tool_status" name="" id="">
+                  <option value="">В работе</option>
+                  <option value="">Не в работе</option>
+                </select>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-sharp fa-solid fa-gear"></i>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="tool_work-wrapper">
+              <select class="tool_work-select" name="" id="">
+                <option value="">Работа прибора</option>
+              </select>
+              <div class="download_wrapper">
+                <img class="alarm_img" src="../img/alarm_clock.svg" alt="" />
+                <button class="download-btn">
+                  Сохранить PDF <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+              </div>
+            </div>
+            <div class="work_date">
+              <button class="date-btn">
+                07.10.2021, 10:55 <i class="fa-regular fa-calendar"></i>
+              </button>
+              <i class="fa-solid fa-arrow-right"></i>
+              <button class="date-btn">
+                21.10.2021, 10:55 <i class="fa-regular fa-calendar"></i>
+              </button>
+            </div>
+            <div class="booking_btns-wrapper">
+              <button class="book-btn">День</button>
+              <button class="book-btn">Неделя</button>
+              <button class="book-btn">2 недели</button>
+              <button class="book-btn">Месяц</button>
+              <button class="book-btn">3 месяца</button>
+              <button class="book-btn">Полгода</button>
+            </div>
+            <table>
+              <tr class="table-row">
+                <th>Начало</th>
+                <th>Тип работ</th>
+                <th>Работы</th>
+                <th>Результат</th>
+                <th>Пользователь</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../js/analitics.js"></script>
+  </body>
+</html>
+<!-- <i class="fa-regular fa-calendar"></i>
+   -->

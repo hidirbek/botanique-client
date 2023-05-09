@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <title>Botanique</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="logo-wrapper">
+            <img src="../img/site_logo.svg" alt="site logo" />
+          </div>
+          <nav class="site-nav">
+            <a class="nav-links nav_link-active" href="./index.html">Главная</a>
+            <a class="nav-links" href="./analitics.html">Аналитика</a>
+          </nav>
+          <div class="user-part">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main section -->
+    <main class="site-main">
+      <div class="container">
+        <div class="main-wrapper">
+          <div class="input-wrapper">
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Поиск прибора в Botanique по номеру, названию, подразделению и др."
+            />
+            <i class="fa-solid fa-qrcode"></i>
+          </div>
+          <div class="favourite-tools">
+            <h2 class="title">
+              <i class="fa-sharp fa-solid fa-heart"></i> Любимые приборы
+            </h2>
+            <div class="fav_tool_title-wrapper">
+              <div class="column_names">
+                <p class="name title_name">Название</p>
+                <p class="name status_name">Статус</p>
+              </div>
+              <!-- <div class="fav_tool_titles">
+                <img
+                  class="tool-img"
+                  src="https://lh3.googleusercontent.com/nE0HET-BA6mcAEf16pYTJfZLvhNmQk2YcAjEpIxdNfBJC47z1Xfmc_bxcfFm1oGF0gz-FLpHJndO27Mx9e-FWc3EslHzrPl9p_lMUc7C171a_hMwkVzCn_khPPHLPTKOwjlvwnODeiiFacxDdYYLpumeIHSa9qx4CXSwQc6v0aovAdGuTXswtF8NPCJO0dJa9J5WDyNwOhg9XGmN1PwKGiEMlA_3xWKnGvLkZqyQfk2a2ayWFVhVWnXM_Q5eRo_0HILG3S7aUDnxZQcw4UNxpmB9HbCX16-rERtGwep3JwlXwzLw18y_9cL3gyrB4VzSVUcwefZVR0juLWCDcP15U8yuSspxJ3IeMwGyB38J1ZcG9gCDzZe6CUizrCMqQKP-N5abiaiAOoKn_14FpVpjNlk5bjApmi7sKL-mEpdt9eN25340WE4U28alif96yEPDzgaxfZvqquwzY5VPzG9jsvNNSGHmA099VYKofwJk17gHGcW2MwmNK61gDrTV-RX5S7NQjshTifJzPZXo0SEI4kbTxctoAzDuC9_zNseIXTENTkW5ZMcjZsX1f0TL-gG1ch1-0ctVFFkrBWGXfkhwjVc15RiC1rv_1zCNM-bYn6Bnf4T_w-AT_UbU8Xoz3pVUcjSP1g6c_hZKV8xlScw4wQ74TtY5cV2sWPOuaaOEudGvvhlDIScCPzinryqKgVXvYlg0-jg0nghoK48c3pKeA9KbIduDbEdNxG3umwe2NnqNJ_nEk_GgZLK59LMQuJVaDEN12wVyGExeuFJ2gqBU-Wx7RSiW94qYc1LBAPzgpOyaLV6IT9OmCorzUdku7jnX8fkrBukPkPYXvDAlZhIQhB_fkaaIeyAGLFbON7nsRt0Hej2GrGTrlLV0q3gCiLPSSOxszN6kwY2R4aNAF91_4LqrYPDznJeqBHmlbI5_PZ2g9Ur8vbAfzgRcI_7vg3nSSwb2KO_aP3bNMZt_pHjQKA=w41-h40-s-no?authuser=0"
+                  alt=""
+                />
+                <p class="tools-title">
+                  pH-метр Mettler-Toledo International, Inc. SevenCompact S220
+                </p>
+                <select class="status-value" name="" id="">
+                  <option value="">Свободен</option>
+                  <option value="">Несвободен</option>
+                </select>
+                <i class="bell fa-sharp fa-solid fa-bell"></i>
+              </div>
+              <div class="fav_tool_titles">
+                <img class="tool-img" src="../img/pH.png" alt="" />
+                <p class="tools-title">
+                  pH-метр Mettler-Toledo International, Inc. SevenCompact S220
+                </p>
+                <select class="status-value" name="" id="">
+                  <option value="">Свободен</option>
+                  <option value="">Несвободен</option>
+                </select>
+                <i class="bell fa-solid fa-bell-slash"></i>
+              </div>
+              <div class="fav_tool_titles">
+                <img class="tool-img" src="../img/pH.png" alt="" />
+                <p class="tools-title">
+                  pH-метр Mettler-Toledo International, Inc. SevenCompact S220
+                </p>
+                <select class="status-value" name="" id="">
+                  <option value="">Свободен</option>
+                  <option value="">Несвободен</option>
+                </select>
+                <i class="bell fa-sharp fa-regular fa-bell"></i>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
