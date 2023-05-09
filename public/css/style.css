@@ -231,6 +231,13 @@ a{
   margin: 10px -24px 10px -24px;
   background-color: rgba(33, 33, 33, 0.08);
 }
+.result{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: var(--main-text-color);
+}
 .tool_work-wrapper{
   display: flex;
   justify-content: space-between;

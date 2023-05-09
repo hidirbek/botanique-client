@@ -1,4 +1,4 @@
-let url = "http://localhost:3030/tool_info";
+let url = "https://different-houndstooth-calf.cyclic.app/tool_info";
 fetch(url)
   .then((response) => response.json())
   .then((arr) => {
